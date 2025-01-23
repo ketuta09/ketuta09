@@ -1,0 +1,38 @@
+.top-box {
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+} 
+.hide {
+    background-color: yellow;
+    font-size: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+} 
+.show {
+    background-color: green;
+    font-size: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-left: auto; 
+}  
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 300px; 
+}   
+.image {
+    text-align: center;
+}   
+.image img {
+    width: 200px; height: 200px;
+    border-top-left-radius: 15px; border-top-right-radius: 15px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.empty {
+    display: none;
+}
